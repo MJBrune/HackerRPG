@@ -8,6 +8,8 @@
 #include <fstream>
 #include <Thor/Vectors.hpp>
 #include <SFML\System.hpp>
+#include "tmx/MapLoader.h"
+
 class tank
 {
 private:
@@ -24,8 +26,8 @@ public:
 	void draw(sf::RenderWindow& window);
 	void handleInput(sf::Event handleEvent);
 	void move(float x, float y);
-	void currentMove(float x, float y);
+	void currentMove(float x, float y, tmx::MapLoader& ml);
 	void setTurret(sf::Vector2f mousePoint);
-	void update(sf::RenderWindow& window);
+	void update(sf::RenderWindow& window, tmx::MapLoader& ml);
 };
 #endif

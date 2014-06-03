@@ -19,9 +19,26 @@ void tank::move(float x, float y)
 	tankTurrentSprite.setPosition(x, y);
 }
 
-void tank::currentMove(float x, float y)
+void tank::currentMove(float x, float y, tmx::MapLoader& ml)
 {
-	move(x+tankSprite.getPosition().x, y+tankSprite.getPosition().y);
+	bool collision = false;
+	for(auto layer = ml.GetLayers().begin(); layer != ml.GetLayers().end(); ++layer)
+	{
+		if(layer->name == "Collision")
+		{
+			for(auto object = layer->objects.begin(); object != layer->objects.end(); ++object)
+			{
+				if (collision == false)
+				{
+					collision = object->Contains(sf::Vector2f(x+tankSprite.getPosition().x, y+tankSprite.getPosition().y));
+				}
+			}
+		}
+	}
+	if (!collision)
+	{
+		move(x+tankSprite.getPosition().x, y+tankSprite.getPosition().y);
+	}
 }
 
 void tank::handleInput(sf::Event handleEvent)
@@ -30,18 +47,17 @@ void tank::handleInput(sf::Event handleEvent)
 		setTurret(sf::Vector2f(handleEvent.mouseMove.x,handleEvent.mouseMove.y));
 }
 
-void tank::update(sf::RenderWindow& window)
+void tank::update(sf::RenderWindow& window, tmx::MapLoader& ml)
 {
 	setTurret(sf::Vector2f(sf::Mouse::getPosition(window)));
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::W))
-		currentMove( sin(tankSprite.getRotation()*(3.14159265/180)) *speed, cos((tankSprite.getRotation()-180)*(3.14159265/180)) *speed);
+		currentMove( sin(tankSprite.getRotation()*(3.14159265/180)) *speed, cos((tankSprite.getRotation()-180)*(3.14159265/180)) *speed, ml);
 	else if (sf::Keyboard::isKeyPressed(sf::Keyboard::S))
-		currentMove( sin(tankSprite.getRotation()*(3.14159265/180)) *-speed, cos((tankSprite.getRotation()-180)*(3.14159265/180)) *-speed);
+		currentMove( sin(tankSprite.getRotation()*(3.14159265/180)) *-speed, cos((tankSprite.getRotation()-180)*(3.14159265/180)) *-speed, ml);
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::A))
 		tankSprite.rotate(-mobility);
 	else if (sf::Keyboard::isKeyPressed(sf::Keyboard::D))
 		tankSprite.rotate(mobility);;
-	std::cout << tankSprite.getRotation() << std::endl;
 }
 
 void tank::loadFromFile(std::string fileName)

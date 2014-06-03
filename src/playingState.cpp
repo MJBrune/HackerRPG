@@ -25,7 +25,8 @@ void playingState::draw(sf::RenderWindow& window)
 
 void playingState::update(sf::RenderWindow& window)
 {
-	playerTank.update(window);
+	playerTank.update(window, ml);
+
 }
 
 void playingState::handleInput(sf::Event handleEvent)
