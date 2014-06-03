@@ -1,0 +1,9 @@
+C:/Users/James/Desktop/Hacker RPG/tmxloaderlibs/CMakeFiles/ALL_BUILD.dir
+C:/Users/James/Desktop/Hacker RPG/tmxloaderlibs/CMakeFiles/BenchMark.dir
+C:/Users/James/Desktop/Hacker RPG/tmxloaderlibs/CMakeFiles/DrawWithDebug.dir
+C:/Users/James/Desktop/Hacker RPG/tmxloaderlibs/CMakeFiles/Isometric.dir
+C:/Users/James/Desktop/Hacker RPG/tmxloaderlibs/CMakeFiles/QuadTree.dir
+C:/Users/James/Desktop/Hacker RPG/tmxloaderlibs/CMakeFiles/ShaderEffects.dir
+C:/Users/James/Desktop/Hacker RPG/tmxloaderlibs/CMakeFiles/ZERO_CHECK.dir
+C:/Users/James/Desktop/Hacker RPG/tmxloaderlibs/CMakeFiles/pugi.dir
+C:/Users/James/Desktop/Hacker RPG/tmxloaderlibs/CMakeFiles/tmx-loader.dir

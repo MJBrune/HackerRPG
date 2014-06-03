@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\James\Desktop\Hacker RPG\sfml-tmxloader-master\examples\Benchmark.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\James\Desktop\Hacker RPG\sfml-tmxloader-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2A8640CA-867A-4FCF-9A8D-7F81904BCA14}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

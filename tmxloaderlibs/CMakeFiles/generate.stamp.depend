@@ -1,0 +1,28 @@
+# CMake generation dependency list for this directory.
+C:/Users/James/Desktop/Hacker RPG/sfml-tmxloader-master/CMakeLists.txt
+C:/Users/James/Desktop/Hacker RPG/tmxloaderlibs/CMakeFiles/2.8.12.2/CMakeSystem.cmake
+C:/Users/James/Desktop/Hacker RPG/tmxloaderlibs/CMakeFiles/2.8.12.2/CMakeCCompiler.cmake
+C:/Users/James/Desktop/Hacker RPG/tmxloaderlibs/CMakeFiles/2.8.12.2/CMakeCXXCompiler.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeSystemSpecificInformation.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeGenericSystem.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/WindowsPaths.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCInformation.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-MSVC-C.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-MSVC.cmake
+C:/Users/James/Desktop/Hacker RPG/tmxloaderlibs/CMakeFiles/2.8.12.2/CMakeRCCompiler.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeRCInformation.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCommonLanguageInclude.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCXXInformation.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-MSVC-CXX.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-MSVC.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCommonLanguageInclude.cmake
+C:/Users/James/Desktop/Hacker RPG/sfml-tmxloader-master/cmake/Modules/FindSFML.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindZLIB.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageMessage.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cmake
+C:/Users/James/Desktop/Hacker RPG/sfml-tmxloader-master/cmake/Modules/FindBOX2D.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPackageMessage.cmake
+c:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cmake

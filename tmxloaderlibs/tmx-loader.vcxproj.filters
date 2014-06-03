@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\James\Desktop\Hacker RPG\sfml-tmxloader-master\src\DebugShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\James\Desktop\Hacker RPG\sfml-tmxloader-master\src\MapLoaderPublic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\James\Desktop\Hacker RPG\sfml-tmxloader-master\src\MapLoaderPrivate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\James\Desktop\Hacker RPG\sfml-tmxloader-master\src\MapLayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\James\Desktop\Hacker RPG\sfml-tmxloader-master\src\MapObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\James\Desktop\Hacker RPG\sfml-tmxloader-master\src\QuadTreeNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\James\Desktop\Hacker RPG\sfml-tmxloader-master\include\tmx\MapLayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\James\Desktop\Hacker RPG\sfml-tmxloader-master\include\tmx\MapLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\James\Desktop\Hacker RPG\sfml-tmxloader-master\include\tmx\MapObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\James\Desktop\Hacker RPG\sfml-tmxloader-master\include\tmx\QuadTreeNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\James\Desktop\Hacker RPG\sfml-tmxloader-master\include\tmx\DebugShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\James\Desktop\Hacker RPG\sfml-tmxloader-master\include\tmx\Helpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\James\Desktop\Hacker RPG\sfml-tmxloader-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2A8640CA-867A-4FCF-9A8D-7F81904BCA14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{01DAAF36-51BF-482E-95AD-CD4437A063F3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
